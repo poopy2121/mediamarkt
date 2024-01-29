@@ -1,0 +1,80 @@
+body {
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(235, 231, 231);
+ 
+}
+
+
+.container {
+    height: 50%;
+    width: 50%;
+    border: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+
+h1 {
+    font: 5em sans-serif;
+    font-style: italic;
+}
+
+button {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    height: 4rem;
+    width: 16rem;
+    border: none;
+    font: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#left {
+    background-image: url('images/bg-rise-desktop-left-red.jpg');
+    background-size: cover;
+}
+
+#right {
+    border: hidden green;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 2rem;
+    font-size: 1.3em;
+}
+
+h2 {
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em ;
+    font-style: italic;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+#bothbtn {
+    margin-top: 25px;
+    padding: 12px;
+    display: flex;
+
+}
+
+#bearbeiten {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+#profil {
+    font-size: 8em;
+}
+
